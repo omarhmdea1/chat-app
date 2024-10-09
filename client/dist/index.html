@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Getting Started</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<br />
+			<div class="row">
+				<div class="col-3">
+					<script src="main.js"></script>
+					<form id="signup">
+						<div class="mb-3">
+							<label for="emailInput" class="form-label"
+								>Email address</label
+							>
+							<input
+								type="email"
+								class="form-control"
+								id="emailInput"
+							/>
+						</div>
+						<div class="mb-3">
+							<label for="firstNameInput" class="form-label"
+								>First Name</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="firstNameInput"
+							/>
+						</div>
+						<div class="mb-3">
+							<label for="lastNameInput" class="form-label"
+								>Last Name</label
+							>
+							<input
+								type="text"
+								class="form-control"
+								id="lastNameInput"
+							/>
+						</div>
+						<div class="mb-3">
+							<label for="passwordInput" class="form-label"
+								>Password</label
+							>
+							<input
+								type="password"
+								class="form-control"
+								id="passwordInput"
+							/>
+						</div>
+						<button type="submit" class="btn btn-primary">
+							Submit
+						</button>
+					</form>
+				</div>
+				<div class="col-9">
+					<textarea
+						class="form-control"
+						id="main-chat"
+						rows="20"
+					></textarea>
+					<div class="input-group mb-3">
+						<input
+							type="text"
+							id="message-input"
+							class="form-control"
+							placeholder="Type your message here..."
+							aria-describedby="send-btn"
+						/>
+						<button
+							class="btn btn-outline-secondary"
+							type="button"
+							id="send-btn"
+						>
+							Send
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
